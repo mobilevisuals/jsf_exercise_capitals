@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jsf_exercise_capitals:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jsf_exercise_capitals_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jsf_exercise_capitals/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsf_exercise_capitals" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
