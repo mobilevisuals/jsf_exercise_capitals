@@ -19,8 +19,6 @@ import java.util.List;
 @SessionScoped
 public class CapitalController implements Serializable {
 
-
-
     private String answer = "";
     private String guess = "";
     int i = 0;
@@ -69,7 +67,6 @@ public class CapitalController implements Serializable {
     }
 
     public void setGuess(String guess) {
-        //~~  Collections.shuffle(list);
         this.guess = guess;
     }
 
@@ -82,7 +79,6 @@ public class CapitalController implements Serializable {
     //the guess
     private void evaluateGuess() {
         answer = "";
-// i here~~~~~~~~~~~~~~
         if (guess.toLowerCase().equals(stateCapitals[i][1].toLowerCase())) {
             answer += "Yes. The capital of " + stateCapitals[i][0]
                     + " is " + stateCapitals[i][1] + ".";
