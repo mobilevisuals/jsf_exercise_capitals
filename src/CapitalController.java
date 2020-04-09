@@ -53,6 +53,7 @@ public class CapitalController implements Serializable {
      * Creates a new instance of CapitalController
      */
     public CapitalController() {
+
         Collections.shuffle(list);
     }
 
@@ -71,7 +72,6 @@ public class CapitalController implements Serializable {
     }
 
     public String getQuestion() {
-        System.out.println("i is " + i);
         return "What is the capital of " + stateCapitals[i][0] + "?";
     }
 
